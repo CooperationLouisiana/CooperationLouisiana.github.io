@@ -41,7 +41,9 @@ nav > ul li {
 
 .slider {
     position: relative;
-    background: url('http://lorempixel.com/1000/400/');
+    background: url('http://lorempixel.com/1920/400/');
+    background-repeat: no-repeat;
+    background-width: 100%;
     border: 5px solid black;
     width: 100vw;
     height: 400px;
