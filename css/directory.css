@@ -1,0 +1,32 @@
+.directory-header {
+	font-size: 2em;
+}
+
+.directory {
+	display: flex;
+	flex-direction: column;
+}
+
+.directory > .directory-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.directory > .directory-item > .left-side,
+.directory > .directory-item > .right-side {
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+.directory > .directory-item > .left-side {
+	border-right: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1
+}
+
+.directory > .directory-item > .right-side {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 3;
+}
