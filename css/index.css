@@ -39,13 +39,13 @@ a:hover {
     border: 1px solid black;
 }
 
-nav > ul {
+.navigation ul {
     display: flex;
     flex-direction: row;
     justify-content:center;
 }
-nav > ul li {
-    padding: 0 1%;
+.navigation li {
+    padding: 0 3px;
 }
 
 .slider {
