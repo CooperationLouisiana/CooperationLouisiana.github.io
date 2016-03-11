@@ -2,20 +2,28 @@
 /* E v e n t s */
 
 
-.events { /* encompasses entire block*/ 
+.events {
+  /* encompasses entire block*/
 
 }
 
 .events-label {
-font-size: 1.5em;
-border-bottom: 3px solid black;
+  font-size: 1.5em;
+  border-bottom: 3px solid black;
 }
 
 .events-label {
-    font-size:2em;
-    font-color: 
+  font-size:2em;
 
+}
+.events-info {
+  /* e.g. Intro to Coops Teach In!	Tulane Campus	5/5/16	12PM */
+  font-weight: bold;
 }
 .events-description {
-    font-style: italic;
+  font-style: italic;
+}
+
+td {
+  border-bottom: 1px solid black;
 }
