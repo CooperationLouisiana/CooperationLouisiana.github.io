@@ -44,8 +44,8 @@ a:hover {
     flex-direction: row;
     justify-content:center;
 }
-.navigation ul li {
-    padding: 1px 1%;
+.navigation li {
+    padding: 0 3px;
 }
 
 .slider {
