@@ -2,9 +2,10 @@
 /* E v e n t s */
 
 
-.events {
+main.events {
   /* encompasses entire block*/
-
+  width: 80%;
+  margin: auto;
 }
 
 .events-label {
