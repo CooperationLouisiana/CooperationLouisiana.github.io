@@ -1,14 +1,7 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 62.5%;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
-main {
-    flex: 1;
-}
+
+
+
 
 a {
     color: inherit;
@@ -19,12 +12,27 @@ a:hover {
     text-decoration: underline;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, nav, .serif {
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.17em; }
 h4 { font-size: 1.12em; }
 h5 { font-size: .83em; }
 h6 { font-size: .75em; }
+
+main {
+    flex: 1;
+}
 
 .cta {
     padding: 10px 0;
