@@ -34,6 +34,29 @@ main {
     flex: 1;
 }
 
+  .search-bar {
+    position: absolute;
+    top: 10em;
+    right: 1%;
+    display: flex;
+    flex-direction: row;
+
+  }
+.search-bar input {
+  height: 20px;
+  border: 2px solid black;
+  background-color: lightgrey;
+  padding: 10px 1%;
+  font-size: 1.5em;
+  text-align: center;
+}
+.search-bar button {
+  padding:  10px;
+  font-size: 1.2em;
+  margin: 0 0 0 1%;
+
+}
+
 .cta {
     padding: 10px 0;
     display: flex;
