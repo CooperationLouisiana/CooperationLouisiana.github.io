@@ -1,8 +1,4 @@
 
-
-
-
-
 a {
     color: inherit;
     text-decoration: none;
@@ -48,10 +44,49 @@ main {
 .subscribe {
 
 }
-.social-media, .subscribe, .donate, .logo {
+.logo {
    margin: 0 1%;
    background-color: grey;
    color: white;
+}
+
+.subscribe, .donate {
+  margin: 0 1%;
+  padding: 8px 10px 5px;
+  border-radius: 5px;
+  /*background-color: grey;*/
+  color: white;
+  font-size: 1.5em;
+}
+
+.subscribe {
+  background: green;
+}
+
+.donate {
+  background: red;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media .facebook,
+.social-media .twitter {
+  width: 30px;
+  height: 30px;
+  content: " ";
+  background: url(/images/social-icons.svg);
+  background-size: 500px;
+  margin: 0 1%;
+}
+
+.social-media .facebook {
+  background-position: 382px 219px;
+}
+
+.social-media .twitter {
+  background-position: 195px 219px;
 }
 
 .logo-bar {
@@ -82,9 +117,7 @@ main {
     position: relative;
     background: url('http://lorempixel.com/1920/400/');
     background-repeat: no-repeat;
-    background-width: 100%;
     border: 5px solid black;
-    width: 100vw;
     height: 400px;
 }
 .slider-tagline {

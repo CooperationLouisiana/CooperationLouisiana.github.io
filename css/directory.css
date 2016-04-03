@@ -11,7 +11,6 @@
 
 }
 
-
 .directory-header .filter select {
 	font-size: 1em;
 }
@@ -28,6 +27,7 @@
 	flex-direction: row;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	font-size: 1.5em;
 }
 
 .directory > .directory-item > .left-side,
@@ -45,13 +45,13 @@
 
 
 
-.directory > .directory-item > .left-side > 
+.directory > .directory-item > .left-side >
 .coop-name {
 	margin-bottom: 7px;
 	font-weight: bold;
 }
 
-.directory > .directory-item > .left-side > 
+.directory > .directory-item > .left-side >
 .coop-desc {
 
 }
@@ -60,6 +60,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-grow: 3;
+	align-items: center;
 }
 
 .directory > .directory-item > .right-side span {
@@ -70,7 +71,7 @@
 .directory > .directory-item > .right-side >
 .coop-location {
 	text-align: center;
-	
+
 }
 
 
@@ -79,6 +80,7 @@
 	display:  flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
 .directory > .directory-item > .right-side >
@@ -93,6 +95,6 @@
 	width: 30px;
 	height: 30px;
  	background-image: url(/images/icons.png);
- 	background-position: -190px -120px;
+ 	background-position: -190px -117px;
  	margin: 0px 5px;
 }
