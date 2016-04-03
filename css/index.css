@@ -140,8 +140,7 @@ main {
 .navigation ul {
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    padding-right: 2em;
+    padding-right: 0 0 0 2em;
 }
 .navigation li {
     padding: 0 3px;
