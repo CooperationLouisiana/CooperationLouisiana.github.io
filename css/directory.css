@@ -71,9 +71,37 @@
 .directory > .directory-item > .right-side >
 .coop-location {
 	text-align: center;
-
+	display: flex;
+	align-items: center;
 }
 
+.directory > .directory-item > .right-side >
+.coop-location:before {
+	content: "";
+	display: flex;
+	width: 30px;
+	height: 30px;
+ 	background-image: url(/images/icons.png);
+ 	background-position: -4px -229px;
+ 	margin: 0px 5px;
+}
+
+.directory > .directory-item > .right-side >
+.coop-website:before {
+	content: "";
+	display: flex;
+	width: 30px;
+	height: 30px;
+ 	background-image: url(/images/icons.png);
+ 	background-position: -264px -265px;
+ 	margin: 0px 5px;
+}
+
+.directory > .directory-item > .right-side >
+.coop-website {
+	display: flex;
+	align-items: center;
+}
 
 .directory > .directory-item > .right-side >
 .coop-email {
