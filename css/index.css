@@ -52,8 +52,8 @@ main {
 
 .subscribe, .donate {
   margin: 0 1%;
-  padding: 8px 10px 5px;
-  border-radius: 5px;
+  padding: .8em 1em .5em;
+  border-radius: .5em;
   color: white;
   font-size: 1.5em;
   cursor: pointer;
@@ -98,7 +98,7 @@ main {
 }
 
 .logo-bar {
-   padding: 5px 1% 20px;
+   padding: .5em .1em 2em;
    display: flex;
    justify-content:space-between;
    align-items: center;
@@ -117,6 +117,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content:center;
+    padding-right: 2em;
 }
 .navigation li {
     padding: 0 3px;
