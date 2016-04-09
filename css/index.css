@@ -114,7 +114,7 @@ main {
   }
 .search-bar input {
   height: 20px;
-  border: 2px solid black;
+  border: 1px dotted;
   background-color: lightgrey;
   padding: 10px 1%;
   font-size: 1.5em;
@@ -131,13 +131,14 @@ main {
 .logo {
     width: 25%;
     height: 100px;
-    border: 1px solid black;
+    border: 1px dotted;;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .navigation ul {
+
     display: flex;
     flex-direction: row;
     padding-right: 0 0 0 2em;
@@ -153,7 +154,7 @@ main {
     position: relative;
     background: url('http://lorempixel.com/1920/400/');
     background-repeat: no-repeat;
-    border: 5px solid black;
+    border: 1px dotted;
     height: 400px;
 }
 .slider-tagline {
@@ -204,7 +205,7 @@ main {
 /* footer */
 
 footer {
-    border: 5px solid black;
+    border: 1px dotted;
     width: 100%;
     height: 200px;
     box-sizing: border-box;
