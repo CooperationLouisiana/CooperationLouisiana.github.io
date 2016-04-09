@@ -184,8 +184,10 @@ main {
 
 /* form */
 .cta-contact-form {
-    width: 100%;
-    border: 5px solid;
+    padding: 10px 1%;
+    margin: auto;
+    width: 80%;
+    border: 1px dotted;
     box-sizing: border-box;
 }
 
