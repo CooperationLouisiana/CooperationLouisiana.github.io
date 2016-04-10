@@ -56,6 +56,11 @@ p {
 /* End Global Styles */
 
 /* Start Header Styles */
+.site-header {
+  box-sizing: border-box;
+  margin: 1%;
+}
+
 .site-header .cta {
     padding: 10px 0;
     display: flex;
@@ -64,7 +69,6 @@ p {
 }
 
 .site-header .logo {
-   margin: 0 1%;
    background-color: grey;
    color: white;
 }
@@ -89,6 +93,7 @@ p {
 
 .site-header .cta .donate {
   background: red;
+  margin-right: 0;
 }
 
 .site-header .cta .donate:hover {
@@ -187,7 +192,6 @@ footer nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 footer nav ul li {
@@ -197,6 +201,7 @@ footer nav ul li {
 footer nav ul li a {
     font-size: 1.5em;
 }
+
 .footer-contact {
     display: flex;
     flex-direction: row;
