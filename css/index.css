@@ -1,3 +1,6 @@
+main {
+  padding: 0;
+}
 
 .slider {
     position: relative;
@@ -15,8 +18,7 @@
     width: 50%;
     height: 30%;
     font-size: 2em;
-
-}
+  }
 
 /* featured blocks (grabbing data from other pages) */
 .featured-container {
