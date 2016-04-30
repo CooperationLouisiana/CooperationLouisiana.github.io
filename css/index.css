@@ -8,16 +8,22 @@ main {
     background-repeat: no-repeat;
     border: 1px dotted;
     height: 400px;
+    margin: 1em 0;
 }
 
 .slider-tagline {
+    padding: 1em 2%;
+    font-size: 2em;
+    font-weight: bolder;
+    color:white;
     position: absolute;
     bottom: 0;
     left:0;
-    background-color: white;
+    background-color: black;
+    opacity: 0.7;
     width: 50%;
     height: 30%;
-    font-size: 2em;
+
   }
 
 /* featured blocks (grabbing data from other pages) */
@@ -25,10 +31,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    padding: 25px;
 }
 
 .featured {
+    padding: 1em 2%;
+    margin: 1em 2%;
     width: 30%;
     height: 250px;
     background-color: grey;
@@ -38,7 +45,7 @@ main {
 /* form */
 .cta-contact-form {
     padding: 10px 1%;
-    margin: auto;
+    margin: 1em auto;
     width: 80%;
     border: 1px dotted;
     box-sizing: border-box;

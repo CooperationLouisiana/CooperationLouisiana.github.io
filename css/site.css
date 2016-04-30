@@ -123,7 +123,6 @@ p {
 }
 
 .site-header .logo-bar {
-   padding: .5em .1em 2em;
    display: flex;
    justify-content:space-between;
 }
@@ -184,6 +183,8 @@ p {
 /* Start Footer Styles */
 
 footer {
+    margin-top: 1em;
+    padding: 1em 2%;
     border: 1px dotted;
     width: 100%;
     height: 200px;
