@@ -135,6 +135,7 @@ p {
 }
 
 .site-header .search-bar {
+  padding: 1em 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -168,6 +169,7 @@ p {
     display: flex;
     flex-direction: row;
     padding-right: 0 0 0 2em;
+    padding: 10px 0;
 }
 .site-header .navigation li {
     padding: 0 3px;
