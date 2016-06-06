@@ -1,5 +1,4 @@
 .directory-header {
-	margin:  0px auto;
 	width: 80%;
 }
 
@@ -18,7 +17,6 @@
 .directory {
 	display: flex;
 	flex-direction: column;
-	margin:  0px auto;
 	width: 80%;
 }
 
