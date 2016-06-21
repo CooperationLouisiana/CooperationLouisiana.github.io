@@ -1,0 +1,125 @@
+
+/* Start Header Styles */
+.site-header {
+  box-sizing: border-box;
+  margin: 1%;
+}
+
+.site-header .cta {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.site-header .logo {
+   background-color: grey;
+   color: white;
+}
+
+.site-header .subscribe,
+.site-header .donate {
+  margin: 0 1%;
+  padding: .8em 1em .5em;
+  border-radius: .5em;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.site-header .subscribe {
+  background: green;
+}
+
+.site-header .subscribe:hover {
+  background-color: darkgreen;
+}
+
+.site-header .cta .donate {
+  background: red;
+  margin-right: 0;
+}
+
+.site-header .cta .donate:hover {
+  background: darkred;
+}
+
+.site-header .cta .social-media {
+  display: flex;
+}
+
+.site-header .cta .social-media .facebook,
+.site-header .cta .social-media .twitter {
+  width: 30px;
+  height: 30px;
+  content: " ";
+  background: url(/images/social-icons.svg);
+  background-size: 500px;
+  margin: 0 .5vw;
+}
+
+.site-header .cta .social-media .facebook {
+  background-position: 382px 219px;
+}
+
+.site-header .cta .social-media .twitter {
+  background-position: 195px 219px;
+}
+
+.site-header .logo-bar {
+   display: flex;
+   justify-content:space-between;
+}
+
+.site-header .nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.site-header .search-bar {
+  padding: 1em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.site-header .search-bar input {
+  height: 20px;
+  border: 1px dotted;
+  background-color: lightgrey;
+  padding: 10px 1%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.site-header .search-bar button {
+  padding:  10px;
+  font-size: 1.2em;
+  margin: 0 0 0 1%;
+}
+
+.site-header .logo {
+    width: 25%;
+    height: 100px;
+    border: 1px dotted;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header .navigation ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0 0 0 2em;
+    padding: 10px 0;
+}
+.site-header .navigation li {
+    padding: 0 3px;
+}
+
+.site-header .navigation li a {
+    font-size: 1.5em;
+}
+
+/* End Header Styles */

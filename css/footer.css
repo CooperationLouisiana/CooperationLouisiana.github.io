@@ -1,0 +1,33 @@
+/* Start Footer Styles */
+
+footer {
+    margin-top: 1em;
+    padding: 1em 2%;
+    border: 1px dotted;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 5px 2%;
+}
+
+footer nav ul li a {
+    font-size: 1.5em;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px 2%;
+}
+
+/* End Footer Styles*/

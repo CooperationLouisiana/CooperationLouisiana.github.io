@@ -1,9 +1,19 @@
- @import 'index.css';
- @import 'about.css';
- @import 'directory.css';
- @import 'events.css';
- @import 'news.css';
- @import 'reset.css';
- @import 'resources.css';
- @import 'site.css';
+
+@import 'third-party/reset.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'index.css';
+@import 'about.css';
+@import 'directory.css';
+@import 'events.css';
+@import 'news.css';
+@import 'resources.css';
+@import 'site.css';
+
+/* End Global Styles */
+
+
+
+
+
 
