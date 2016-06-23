@@ -52,8 +52,8 @@
     line-height: 1.9;
   }
 }
-/* subscribe, donate */
-.navbar-btn-row {
+
+.navbar-btn-row { /* subscribe, donate */
   display: flex;
   align-items: center;
   li {
@@ -79,6 +79,11 @@
   }
 }
 
+@media (min-width: 820px) {
+  .navbar-left {
+    float: none; //so subscribe, donate doesn't wrap around
+  }
+}
 // Buttons ====================================================================
 
 .btn {
