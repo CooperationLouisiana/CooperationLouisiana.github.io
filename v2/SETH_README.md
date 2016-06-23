@@ -7,4 +7,4 @@
   - grunt dist
 - when you edit LESS files, it should auto-compile to dist/* ...
   - grunt watch
-- only edit site_variables.less
+- only edit site_variables.less 

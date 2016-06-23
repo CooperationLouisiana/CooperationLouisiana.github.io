@@ -1,0 +1,1 @@
+only edit less/css properties in files prefixed with 'site'

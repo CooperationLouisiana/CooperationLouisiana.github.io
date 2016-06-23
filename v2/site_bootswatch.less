@@ -18,6 +18,7 @@
   &-form {
     margin-left: 0;
     margin-right: 0;
+    display: flex; /* vertical aligns the buttons */
   }
 
   &-nav > li > a {
@@ -51,7 +52,17 @@
     line-height: 1.9;
   }
 }
-
+/* subscribe, donate */
+.navbar-btn-row {
+  display: flex;
+  align-items: center;
+  li {
+    margin: 1%;
+  }
+}
+.nav .navbar-nav .navbar-right {
+  display: flex;
+}
 @media (min-width: @grid-float-breakpoint) {
   .navbar {
     .navbar-nav > li > a {
